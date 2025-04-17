@@ -2199,7 +2199,7 @@ local function ToggleFling(bool)
 	end)
 end
 
---CHANGE SECTION BUTTONS
+--NÚT THAY ĐỔI PHẦN
 ChangeSection(Home_Section_Button)
 Home_Section_Button.MouseButton1Click:Connect(function()
 	ChangeSection(Home_Section_Button)
@@ -2229,7 +2229,7 @@ Credits_Section_Button.MouseButton1Click:Connect(function()
 	ChangeSection(Credits_Section_Button)
 end)
 
---GAME SECTION BUTTONS
+--NÚT PHẦN TRÒ CHƠI
 AntiRagdollFunction = nil
 AntiRagdoll_Button.MouseButton1Click:Connect(function()
 	ChangeToggleColor(AntiRagdoll_Button)
@@ -2526,7 +2526,7 @@ CMDBar.FocusLost:Connect(function()
 	CMDBar.Text = ""
 end)
 
---CHARACTER SECTION
+--PHẦN NHÂN VẬT
 
 WalkSpeed_Button.MouseButton1Click:Connect(function()
 	pcall(function()
